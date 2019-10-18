@@ -8,3 +8,16 @@ The architecture is split into front-end and back-end. The back-end consists of 
 The front-end architecture functions to combine both the raw SQL data for display with the data-integrity reassurances provided by the smart-contract layer. The assets are displayed and created via two different React-based web3-enabled applications. These applications are in turn displayed via HTML iFrames inside EcoTree's existing web application. The asset explorer application is used to view "division" asset information (SQL data verified via the web3 integration). The asset creation application is used, on the other hand, to create new "division" assets. Data is entered, signed via MetaMask, and sent to the smart-contract for the creation of a new NFT. The new asset's NFT is only minted if the creator's address is marked as a whitelisted administrative address inside of the Asset Ownership Contract.
 
 For a more detailed assessment of the planned database and smart contract architecture, see the [Database Structure file](https://github.com/flyingcarpet-network/ecoTree/blob/master/database-structure.md).
+
+## Workflow
+
+### Ecotree Explorer page
+<p align="center">
+  <img width="400px" src="https://github.com/flyingcarpet-network/ecoTree/blob/master/assets/assets_explorer.png" />
+</p>
+
+
+### Ecotree Minting page
+<p align="center">
+  <img width="400px" src="https://github.com/flyingcarpet-network/ecoTree/blob/master/assets/assets_explorer.png" />
+</p>
