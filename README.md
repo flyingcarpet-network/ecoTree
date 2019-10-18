@@ -19,5 +19,5 @@ For a more detailed assessment of the planned database and smart contract archit
 
 ### Ecotree Minting page
 <p align="center">
-  <img width="400px" src="https://github.com/flyingcarpet-network/ecoTree/blob/master/assets/assets_explorer.png" />
+  <img width="400px" src="https://github.com/flyingcarpet-network/ecoTree/blob/master/assets/minting_action.png" />
 </p>
